@@ -1,9 +1,5 @@
-#Create a fibonacci series until 9th term
-def fibonacci(n):
-    a, b = 0, 1
-    while a < n:
-        print(a, end=' ')
-        a, b = b, a + b
-    print()
-
-fibonacci(9)
+l1=[0,1]
+for i in range (7):
+  l1.append(l1[i]+l1[i+1])
+tup = tuple(l1)
+print(tup)
