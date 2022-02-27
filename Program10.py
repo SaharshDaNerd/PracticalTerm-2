@@ -9,4 +9,4 @@ for i in range(n):
 #Print the name of students who scored more than 75 marks.
 for i in d:
     if d[i][1]>75:
-        print(d[i][0])
+        print(d[i][0],"scored more than 75 marks.")
